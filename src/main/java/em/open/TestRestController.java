@@ -8,7 +8,6 @@ public class TestRestController {
 
 	@GetMapping
 	public String test() {
-		return "*** { em => open shift } ***";
+		return "*** [ Maven Open Shift ]***";
 	}
-	
 }
